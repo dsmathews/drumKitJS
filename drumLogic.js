@@ -20,3 +20,4 @@ function playSound(e) {
   console.table(keys);
 
   window.addEventListener("keydown", playSound);
+  window.addEventListener(onclick, playSound);
