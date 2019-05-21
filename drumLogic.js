@@ -19,5 +19,10 @@ function playSound(e) {
   );
   console.table(keys);
 
+function clickSound(e) {
+    const elementSelector = document.querySelector(``);
+    
+}
+
   window.addEventListener("keydown", playSound);
-  window.addEventListener(onclick, playSound);
+  window.addEventListener("click", clickSound);
